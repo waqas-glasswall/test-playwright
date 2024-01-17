@@ -1,0 +1,40 @@
+{
+  "name": "meteor-e2etests",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test/main.spec.ts",
+  "scripts": {
+    "e2e": "DEBUG=pw:api,pw:browser playwright test",
+    "ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waqas-glasswall/test-playwright.git"
+  },
+  "keywords": [
+    "playwright",
+    "playwright-test",
+    "allure report",
+    "web test automation"
+  ],
+  "author": "WaqasAwan",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/waqas-glasswall/test-playwright.git/issues"
+  },
+  "homepage": "https://github.com/waqas-glasswall/test-playwright.git#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "electron": "^27.0.2",
+    "electron-playwright-helpers": "^1.7.0",
+    "path": "^0.12.7",
+    "playwright": "^1.39.0",
+    "playwright-core": "^1.39.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
